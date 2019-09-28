@@ -3,3 +3,34 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.smurf-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.smurf-box {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px blue solid;
+}
+
+.smurf-name {
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.smurf-age {
+  padding-bottom: 5px;
+}
+
+.smurf-height {
+  padding-bottom: 5px;
+}
+
+.smurf-delete {
+  display: flex;
+  justify-content: flex-start;
+}
